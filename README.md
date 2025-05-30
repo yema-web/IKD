@@ -1,10 +1,8 @@
-# Intra Knowledge Distillation
+#Debiased Distillation for Consistency Regularization
 
 This repo:
 
-**(1) covers the implementation of the following AAAI 2025 paper:**
-
-"Debiased Distillation for Consistency Regularization" (IKD). [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32840).
+"Debiased Distillation for Consistency Regularization" ( accepted by AAAI 2025 paper). [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32840).
 
 ## Installation
 
