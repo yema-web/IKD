@@ -114,11 +114,14 @@ Performance is measured by classification accuracy (%)
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@inproceedings{tian2019crd,
-  title={Contrastive Representation Distillation},
-  author={Yonglong Tian and Dilip Krishnan and Phillip Isola},
-  booktitle={International Conference on Learning Representations},
-  year={2020}
+@inproceedings{wang2025debiased,
+  title={Debiased Distillation for Consistency Regularization},
+  author={Wang, Lu and Xu, Liuchi and Yang, Xiong and Huang, Zhenhua and Cheng, Jun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={8},
+  pages={7799--7807},
+  year={2025}
 }
 ```
 For any questions, please contact Yonglong Tian (yonglong@mit.edu).
