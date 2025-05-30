@@ -6,7 +6,7 @@ This repo:
 
 "Debiased Distillation for Consistency Regularization" (IKD). [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32840).
 
-<div style="text-align:center"><img src="https://github.com/yema-web/IKD/tree/main" width="85%" height="85%"></div>  
+<div style="text-align:center"><img src="https://github.com/yema-web/IKD/tree/main"
 
 <p></p>
 
