@@ -6,7 +6,7 @@ This repo:
 
 ## Installation
 
-This repo was tested with Ubuntu 16.04.5 LTS, Python 3.5, PyTorch 0.4.0, and CUDA 9.0. But it should be runnable with recent PyTorch versions >=0.4.0
+This repo was tested with Ubuntu 16.04.5 LTS, Python 3.5, PyTorch 0.4.0, and CUDA 9.0. But it should be runnable with recent PyTorch versions >=0.4.0. Reference CRD [github](https://github.com/HobbitLong/RepDistiller)
 
 ## Running
 
