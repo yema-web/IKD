@@ -81,7 +81,7 @@ def parse_option():
     parser.add_argument('--wttm_beta', default=1.5, type=float)
 
     # KL distillation
-    parser.add_argument('--kd_T', type=float, default=10, help='temperature for KD distillation')
+    parser.add_argument('--kd_T', type=float, default=4.0, help='temperature for KD distillation')
     parser.add_argument('--intra_T', type=float, default=2.0, help='temperature for intra class distillation')
     parser.add_argument('--feat_T', type=float, default=0.5, help='temperature for intra class distillation')
     
