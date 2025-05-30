@@ -1,14 +1,10 @@
-# IKD
+# Intra Knowledge Distillation
 
 This repo:
 
 **(1) covers the implementation of the following AAAI 2025 paper:**
 
 "Debiased Distillation for Consistency Regularization" (IKD). [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32840).
-
-<div style="text-align:center"><img src="https://github.com/yema-web/IKD/tree/main"
-
-<p></p>
 
 ## Installation
 
@@ -44,7 +40,7 @@ This repo was tested with Ubuntu 16.04.5 LTS, Python 3.5, PyTorch 0.4.0, and CUD
     
 3. Combining a distillation objective with DKD is simply done by setting `-a` as a non-zero value, which results in the following example (combining DKD with IKD)
     ```
-    python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --distill dkd --model_s resnet8x4 -a 1.0 -b 8.0 --avg 1.0 --trial 1     
+    python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --distill dkd --model_s resnet8x4 -a 1.0 -b 8.0 --avg 1.0 --kd_T 0.5 --trial 1     
     ```
 
 4. (optional) Train teacher networks from scratch. Example commands are in `scripts/run_cifar_vanilla.sh`
